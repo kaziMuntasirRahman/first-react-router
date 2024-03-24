@@ -11,13 +11,13 @@ const User = ({ user }) => {
       <h2>{address.city}</h2>
       <h2>{website}</h2>
       <h2>{phone}</h2>
-      <Link to={`/user/${id}`} className="border border-black px-2 self-end">See Details</Link>
+      <Link to={`/user/${id}`} className="border border-black px-4 self-end">See Details</Link>
     </div>
   );
 };
 
 User.propTypes = {
-  user: PropTypes.obj,
+  user: PropTypes.object,
 
 }
 export default User;

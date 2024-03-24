@@ -5,6 +5,7 @@ const Nav = () => {
     <nav className="flex gap-10 justify-center underline p-6 text-xl">
       <Link to="/">Home</Link>
       <Link to="/users">Users</Link>
+      <Link to="/posts">Posts</Link>
       <Link to="/about">About</Link>
       <Link to="/contact">Contact</Link>
     </nav>
